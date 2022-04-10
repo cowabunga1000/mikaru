@@ -44,8 +44,6 @@ def predict_image(image_upload, model = model_inception):
 
         return predict_product, df, im, s
     
-    st.set_page_config(page_title='Rock ✊🏼 Paper ✋🏼 Scissors ✌🏼', page_icon = 'Images/rock.ico')
-    
     st.sidebar.header('Please Enter Image Link')
     st.sidebar.markdown(
         " \
