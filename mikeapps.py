@@ -43,8 +43,7 @@ def predict_image(image_upload, model = model_inception):
             predict_product = 'Scissor ✌🏼'
 
         return predict_product, df, im, s
-    
-    st.sidebar.header("Please Enter Image Link")
+        
     st.sidebar.markdown(
         " \
         Example link for <a href='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREzt3OL9DdfGODyBesGVVu8i7MNh0nINfjA6r1PDOj4g8xNnpM1rz3iNootFDzIU4ukZA&usqp=CAU' style='text-decoration: none;'>Rock</a>, \
